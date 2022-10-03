@@ -1,5 +1,5 @@
 function validarCPF() {
-    const strCPF = document.getElementById('inp_cpf').value;
+    let strCPF = document.getElementById('inp_cpf').value;
     let Soma;
     let Resto;
     strCPF = strCPF.replace(/[^\d]+/g, '');
